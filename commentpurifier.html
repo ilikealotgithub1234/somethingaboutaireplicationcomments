@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+    #commentsP{
+      border-width:3px;
+      border-color:red;
+    }
+
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <button id = 'start'>START!</button>
+    <p id = 'commentsP'></p>
+    <br>
+    THIS DOESNT WORK PLEASE IGNORE
+    <p id = 'amountDone'></p>
+    <p id = 'slash'> / </p>
+    <p id = 'allCommentCount'></p>
+    <script src='bloodbathriot.json'></script>
+    <script>
+let amountDone = 0;
+let allCommentCount = 24559;
+$('#amountDone').text(amountDone)
+$('#allCommentCount').text(allCommentCount);
+
+
+    $('#start').on('click',()=>{
+      for (var content in comments) {
+        comment = comments[content];
+        console.log('[' + comment.content + ']' );
+        $('#commentsP').html('[' + $('#commentsP').html() + comment.content + ']<br>');
+        amountDone++;
+        console.log(amountDone + amountDone/allCommentCount);
+        console.log( '**' + Math.round((amountDone/allCommentCount)*100) + '%**' );
+
+        $('#amountDone').text(amountDone);
+      }
+    })
+
+
+
+    </script>
+
+  </body>
+</html>
