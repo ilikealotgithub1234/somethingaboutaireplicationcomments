@@ -1,0 +1,9 @@
+package cunn not found!	
+package cutorch not found!	
+Falling back on CPU mode	
+creating an lstm...	
+seeding with [jacksfilms is 	
+--------------------------	
+[jacksfilms is pretty good.]
+[Oll the history family instead]
+[What if at leballed he would make a idiots completel

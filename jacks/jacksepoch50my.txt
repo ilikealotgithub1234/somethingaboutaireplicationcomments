@@ -1,0 +1,9 @@
+package cunn not found!	
+package cutorch not found!	
+Falling back on CPU mode	
+creating an lstm...	
+seeding with [my 	
+--------------------------	
+[my goddam no mexican country ;)]
+[fix Latvias flag]
+[Fix Libya's flag. I guess we don't have basicality

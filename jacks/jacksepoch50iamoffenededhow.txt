@@ -1,0 +1,8 @@
+package cunn not found!	
+package cutorch not found!	
+Falling back on CPU mode	
+creating an lstm...	
+seeding with [I am offended how 	
+--------------------------	
+[I am offended how many popularist country flag is already perfect.]
+[SilvaCome of good Bangladesh fire, from Latvia lo
