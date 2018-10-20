@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -20,24 +21,30 @@
     <p id = 'amountDone'></p>
     <p id = 'slash'> / </p>
     <p id = 'allCommentCount'></p>
-    <script src='bloodbathriot.json'></script>
+    <!-- THIS DOES WORK -->
+    <script src='despacito comments.json'></script> <!-- Put Your json File HERE!-->
     <script>
-let amountDone = 0;
-let allCommentCount = 24559;
+//let amountDone = 0;
+//let allCommentCount = 24559;
 $('#amountDone').text(amountDone)
 $('#allCommentCount').text(allCommentCount);
 
 
     $('#start').on('click',()=>{
+
       for (var content in comments) {
         comment = comments[content];
+        commentformatted = '[' + comment.content + ']';
         console.log('[' + comment.content + ']' );
-        $('#commentsP').html('[' + $('#commentsP').html() + comment.content + ']<br>');
-        amountDone++;
-        console.log(amountDone + amountDone/allCommentCount);
-        console.log( '**' + Math.round((amountDone/allCommentCount)*100) + '%**' );
+//        $('#commentsP').html('[' + $('#commentsP').html() + comment.content + ']<br>');
 
-        $('#amountDone').text(amountDone);
+
+//        amountDone++;
+//        console.log(amountDone + amountDone/allCommentCount);
+//        console.log( '**' + Math.round((amountDone/allCommentCount)*100) + '%**' );
+
+//        $('#amountDone').text(amountDone);
+
       }
     })
 
